@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Home</title>
+        <body>
+            <link rel="stylesheet" type="text/css" href="index.css" />
+            <section class="showcase">
+                <header>
+                  <h2 class="logo">Home</h2>
+                  <div class="toggle"></div>
+                </header>
+              </section>
+              <div class="menu">
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="categories.html">Categories</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </div>
+              <script>
+                const menuToggle = document.querySelector('.toggle');
+                const showcase = document.querySelector('.showcase'); 
+
+                menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active');
+                showcase.classList.toggle('active');
+                })
+              </script>
+        </body>
+    </head>
+</html>

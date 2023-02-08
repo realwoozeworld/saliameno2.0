@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Categories</title>
+        <body>
+            <link rel="stylesheet" type="text/css" href="categories.css" />
+            <section class="showcase">
+                <header>
+                  <h2 class="logo">Categories</h2>
+                  <div class="toggle"></div>
+                </header>
+                <div class="container">
+                    <div class="card">
+                      <div class="imgBx">
+                        <img src="download-removebg-preview.png">
+                      </div>
+                      <div class="contentBx">
+                        <h2>ProArt Display PA278CV</h2>
+                        <div class="size">
+                          <h3>Size:</h3>
+                          <span>24"FHD</span>
+                          <span>27"QHD</span>
+                          <span>27"4K</span>
+                          <span>32"QHD</span>
+                          <span>32"4K</span>
+                        </div>
+                        
+                        <a href="#">Buy Now</a>
+                      </div>
+                    </div>
+                  </div>
+              </section>
+              <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+              </div>                        
+            </section>
+            
+        <style>
+        
+            </style>
+                <script>
+                    const menuToggle = document.querySelector('.toggle');
+                    const showcase = document.querySelector('.showcase');
+
+                    menuToggle.addEventListener('click', () => {
+                    menuToggle.classList.toggle('active');
+                    showcase.classList.toggle('active');
+                    })
+                </script>
+            </body>
+        </head>
+    </html>
